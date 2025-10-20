@@ -1,9 +1,6 @@
 body {
-  background-image: url(Rise Up.jpg), 
-                    linear-gradient(45deg, transparent 50%, #3971a1 50%); /* Replace #eee with your desired background color */
-  background-size: 50px 50px, 100px 100px; /* Adjust sizes as needed */
-  background-repeat: repeat;
-  background-position: 0 0, 0 0; /* Align the gradient and image */
+     	background:url(".//riseUp.jpg") left top repeat-y,url(".//riseUp.jpg") right top repeat-y;
+
 }
 
 h1 {
