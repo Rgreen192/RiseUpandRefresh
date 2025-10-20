@@ -1,7 +1,9 @@
 body {
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
-  font-family: sans-serif;
-  padding: 20px;
+  background-image: url(Rise Up.jpg), 
+                    linear-gradient(45deg, transparent 50%, #3971a1 50%); /* Replace #eee with your desired background color */
+  background-size: 50px 50px, 100px 100px; /* Adjust sizes as needed */
+  background-repeat: repeat;
+  background-position: 0 0, 0 0; /* Align the gradient and image */
 }
 
 h1 {
@@ -10,7 +12,7 @@ h1 {
   margin-bottom: 15px;
 }
 
-h2 {
+h2, caption {
   font-size: 30px;
 }
 
@@ -19,11 +21,14 @@ h2 {
 }
 
 
-h1, h2, h3, p {
+h1, h2, h3, p, address {
   text-align: center;
 }
 
-h3 {}
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .menu {
   width: 80%;
@@ -32,12 +37,11 @@ h3 {}
   margin-right: auto;
   padding: 20px;
   max-width: 500px;
+  border-radius: 5px;
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+li {
+  margin-bottom: 10px;
 }
 
 hr {
@@ -45,6 +49,8 @@ hr {
   background-color: brown;
   border-color: brown;
   border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .bottom-line {
@@ -74,20 +80,6 @@ h1, h2 {
 .price {
   text-align: right;
   width: 25%;
-}
-
-/* FOOTER */
-
-footer {
-  font-size: 14px;
-}
-
-address {
-  font-style: normal;
-}
-
-.address {
-  margin-bottom: 5px;
 }
 
 a {
