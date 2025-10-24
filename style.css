@@ -1,31 +1,41 @@
 body {
      	background:url("/images/RiseUp.jpg") left top repeat-y,url("/images/RiseUp.jpg") right top repeat-y;
-
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 2rem;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 h2, caption {
-  font-size: 30px;
+  font-size: 1.5rem;
+  margin-top: 0;
 }
 
-.established {
-  font-style: italic;
+address {
+  font-size: 1.2rem;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
+.center-table {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
 h1, h2, h3, p, address {
   text-align: center;
 }
 
-.center-table {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .menu {
   width: 80%;
@@ -37,21 +47,25 @@ h1, h2, h3, p, address {
   border-radius: 5px;
 }
 
-li {
+
+ul {
   margin-bottom: 10px;
+  list-style-position: inside;
+  break-inside: avoid;  
+  padding: 5px 0;
+}
+
+li {
+  margin-bottom: 0.7rem;
 }
 
 hr {
   height: 2px;
-  background-color: brown;
-  border-color: brown;
+  background-color: #e10000;
+  border-color: #e10000;
   border-radius: 5px;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.bottom-line {
-  margin-top: 25px;
 }
 
 h1, h2 {
@@ -59,7 +73,10 @@ h1, h2 {
 }
 
 .flavorings {
-  column-count: 2;
+  columns: 2;              
+}
+.milk {
+  columns: 1;              
 }
 
 .item p {
@@ -69,7 +86,7 @@ h1, h2 {
   font-size: 18px;
 }
 
-.flavor, .dessert {
+.flavor {
   text-align: left;
   width: 75%;
 }
@@ -80,7 +97,7 @@ h1, h2 {
 }
 
 a {
-  color: brown;
+  color: #e10000;
 }
 
 a:visited {
@@ -88,9 +105,9 @@ a:visited {
 }
 
 a:hover {
-  color: brown;
+  color: #e10000;
 }
 
 a:active {
-  color: brown;
+  color: #e10000;
 }
